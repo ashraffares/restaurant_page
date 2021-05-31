@@ -10,113 +10,23 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./src/img/americano.jpeg":
-/*!********************************!*\
-  !*** ./src/img/americano.jpeg ***!
-  \********************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"e44258dc8fbdd71ab56f.jpeg\";\n\n//# sourceURL=webpack://webpackk/./src/img/americano.jpeg?");
-
-/***/ }),
-
-/***/ "./src/img/cappuccino.jpeg":
-/*!*********************************!*\
-  !*** ./src/img/cappuccino.jpeg ***!
-  \*********************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"2ee14db165982aaa25b4.jpeg\";\n\n//# sourceURL=webpack://webpackk/./src/img/cappuccino.jpeg?");
-
-/***/ }),
-
-/***/ "./src/img/espresso.jpg":
-/*!******************************!*\
-  !*** ./src/img/espresso.jpg ***!
-  \******************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"0170ab5ad4cbbf57ef7d.jpg\";\n\n//# sourceURL=webpack://webpackk/./src/img/espresso.jpg?");
-
-/***/ }),
-
-/***/ "./src/img/espresso_macchiato.jpg":
-/*!****************************************!*\
-  !*** ./src/img/espresso_macchiato.jpg ***!
-  \****************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"12b6f9fcabc18ba786cd.jpg\";\n\n//# sourceURL=webpack://webpackk/./src/img/espresso_macchiato.jpg?");
-
-/***/ }),
-
-/***/ "./src/img/flat_white.jpg":
-/*!********************************!*\
-  !*** ./src/img/flat_white.jpg ***!
-  \********************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"aca02222313383ee58cc.jpg\";\n\n//# sourceURL=webpack://webpackk/./src/img/flat_white.jpg?");
-
-/***/ }),
-
-/***/ "./src/img/glasse.jpg":
-/*!****************************!*\
-  !*** ./src/img/glasse.jpg ***!
-  \****************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"3b6e7facc28cfd162152.jpg\";\n\n//# sourceURL=webpack://webpackk/./src/img/glasse.jpg?");
-
-/***/ }),
-
-/***/ "./src/img/irish.jpeg":
-/*!****************************!*\
-  !*** ./src/img/irish.jpeg ***!
-  \****************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"f7f89d9437461de4cb0e.jpeg\";\n\n//# sourceURL=webpack://webpackk/./src/img/irish.jpeg?");
-
-/***/ }),
-
-/***/ "./src/img/latte.jpeg":
-/*!****************************!*\
-  !*** ./src/img/latte.jpeg ***!
-  \****************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"3d4d6280993d64344e77.jpeg\";\n\n//# sourceURL=webpack://webpackk/./src/img/latte.jpeg?");
-
-/***/ }),
-
-/***/ "./src/img/ristretto.jpg":
-/*!*******************************!*\
-  !*** ./src/img/ristretto.jpg ***!
-  \*******************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"37c4a905f1a23b8dd278.jpg\";\n\n//# sourceURL=webpack://webpackk/./src/img/ristretto.jpg?");
-
-/***/ }),
-
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _js_menu__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./js/menu */ \"./src/js/menu.js\");\n\n\n(0,_js_menu__WEBPACK_IMPORTED_MODULE_0__.default)();\n\n//# sourceURL=webpack://webpackk/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _js_contact__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./js/contact */ \"./src/js/contact.js\");\n\n\n(0,_js_contact__WEBPACK_IMPORTED_MODULE_0__.default)();\n\n//# sourceURL=webpack://webpackk/./src/index.js?");
 
 /***/ }),
 
-/***/ "./src/js/menu.js":
-/*!************************!*\
-  !*** ./src/js/menu.js ***!
-  \************************/
+/***/ "./src/js/contact.js":
+/*!***************************!*\
+  !*** ./src/js/contact.js ***!
+  \***************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ menumenu)\n/* harmony export */ });\n/* harmony import */ var _img_ristretto_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../img/ristretto.jpg */ \"./src/img/ristretto.jpg\");\n/* harmony import */ var _img_espresso_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../img/espresso.jpg */ \"./src/img/espresso.jpg\");\n/* harmony import */ var _img_espresso_macchiato_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../img/espresso_macchiato.jpg */ \"./src/img/espresso_macchiato.jpg\");\n/* harmony import */ var _img_americano_jpeg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../img/americano.jpeg */ \"./src/img/americano.jpeg\");\n/* harmony import */ var _img_latte_jpeg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../img/latte.jpeg */ \"./src/img/latte.jpeg\");\n/* harmony import */ var _img_cappuccino_jpeg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../img/cappuccino.jpeg */ \"./src/img/cappuccino.jpeg\");\n/* harmony import */ var _img_flat_white_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../img/flat_white.jpg */ \"./src/img/flat_white.jpg\");\n/* harmony import */ var _img_glasse_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../img/glasse.jpg */ \"./src/img/glasse.jpg\");\n/* harmony import */ var _img_irish_jpeg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../img/irish.jpeg */ \"./src/img/irish.jpeg\");\n\n\n\n\n\n\n\n\n\n\nconst coffee = [\n  { name: 'Ristretto', price: '2', src: _img_ristretto_jpg__WEBPACK_IMPORTED_MODULE_0__ },\n  { name: 'Espresso', price: '4', src: _img_espresso_jpg__WEBPACK_IMPORTED_MODULE_1__ },\n  { name: 'Espresso Macchiato', price: '6', src: _img_espresso_macchiato_jpg__WEBPACK_IMPORTED_MODULE_2__ },\n  { name: 'Americano', price: '5', src: _img_americano_jpeg__WEBPACK_IMPORTED_MODULE_3__ },\n  { name: 'Latte', price: '7', src: _img_latte_jpeg__WEBPACK_IMPORTED_MODULE_4__ },\n  { name: 'Cappuccino', price: '8', src: _img_cappuccino_jpeg__WEBPACK_IMPORTED_MODULE_5__ },\n  { name: 'Flat white', price: '6', src: _img_flat_white_jpg__WEBPACK_IMPORTED_MODULE_6__ },\n  { name: 'Glasse', price: '7', src: _img_glasse_jpg__WEBPACK_IMPORTED_MODULE_7__ },\n  { name: 'Irish', price: '5', src: _img_irish_jpeg__WEBPACK_IMPORTED_MODULE_8__ },\n];\n\nconst coffeelen = coffee.length;\n\nconst div = document.createElement('div');\ndiv.classList.add('menu');\n\nfunction menumenu() {\n  const nav = document.createElement('nav');\n  nav.classList.add('nav');\n  const ul = document.createElement('ul');\n  ul.classList.add('ul');\n\n  const links = ['Home', 'Menu', 'Contact'];\n  for (let i = 0; i < 3; i += 1) {\n    const li = document.createElement('li');\n    li.innerHTML = links[i];\n    li.classList.add('li');\n    ul.appendChild(li);\n  }\n\n  nav.appendChild(ul);\n\n  for (let i = 0; i < coffeelen; i += 1) {\n    const card = document.createElement('div');\n    card.classList.add('card');\n\n    const img = document.createElement('img');\n    img.classList.add('img');\n    img.src = coffee[i].src;\n\n    const imgcontent = document.createElement('div');\n    imgcontent.classList.add('imgcontent');\n\n    const name = document.createElement('p');\n    name.classList.add('name');\n    name.innerHTML = coffee[i].name;\n\n    const price = document.createElement('span');\n    price.classList.add('price');\n    price.innerHTML = coffee[i].price;\n\n    const cur = document.createElement('span');\n    cur.innerHTML = '.00 $';\n\n    imgcontent.appendChild(name);\n    imgcontent.appendChild(price);\n    imgcontent.appendChild(cur);\n\n    card.appendChild(img);\n    card.appendChild(imgcontent);\n\n    div.appendChild(card);\n  }\n\n  const content = document.createElement('div');\n  content.classList.add('content');\n  content.appendChild(nav);\n  content.appendChild(div);\n\n  document.body.appendChild(content);\n}\n\n\n//# sourceURL=webpack://webpackk/./src/js/menu.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ contact)\n/* harmony export */ });\nfunction contact() {\n  const nav = document.createElement('nav');\n  nav.classList.add('nav');\n  const ul = document.createElement('ul');\n  ul.classList.add('ul');\n\n  const links = ['Home', 'Menu', 'Contact'];\n  for (let i = 0; i < 3; i += 1) {\n    const li = document.createElement('li');\n    li.innerHTML = links[i];\n    li.classList.add('li');\n    ul.appendChild(li);\n  }\n\n  nav.appendChild(ul);\n\n  const mapouter = document.createElement('div');\n  mapouter.classList.add('mapouter');\n\n  const gmapCanvas = document.createElement('div');\n  gmapCanvas.classList.add('gmap_canvas');\n\n  const iframe = document.createElement('iframe');\n  iframe.classList.add('gmap_iframe');\n  iframe.width = '100%';\n  iframe.src = 'https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Tivoli%20Dome%20alexandria+(Testy%20cafe)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;&output=embed';\n  iframe.frameBorder = '0';\n  iframe.scrolling = 'no';\n  iframe.marginHeight = '0';\n  iframe.marginWidth = '0';\n\n  const mapa = document.createElement('a');\n  mapa.href = 'https://www.fridaynightfunkin.net/';\n  mapa.innerHTML = 'Friday Night Funkin';\n\n  gmapCanvas.appendChild(iframe);\n  gmapCanvas.appendChild(mapa);\n  mapouter.appendChild(gmapCanvas);\n\n  const info = document.createElement('div');\n  info.classList.add('info');\n\n  const detail = document.createElement('div');\n  detail.classList.add('detail');\n\n  const dh1 = document.createElement('h1');\n  dh1.innerHTML = 'Contact Details';\n  dh1.classList.add('bg_h1');\n\n  const detailDiv = document.createElement('div');\n  const detailarr = [\n    'Address: Alexadria sidi Gabar tivoli Dome Testy',\n    'Phone: (02) 01121603394',\n    'Email: Testy@gmail.com',\n    'we are open: Mo-Fr from 8am to 1am',\n  ];\n\n  const dlen = detailarr.length;\n  for (let i = 0; i < dlen; i += 1) {\n    const item = document.createElement('p');\n    item.innerHTML = detailarr[i];\n    detailDiv.appendChild(item);\n  }\n  detail.appendChild(dh1);\n  detail.appendChild(detailDiv);\n\n  const form = document.createElement('div');\n  form.classList.add('form');\n\n  const formh1 = document.createElement('h1');\n  formh1.classList.add('bg_h1');\n  formh1.innerHTML = \"Let's Get in Touch\";\n\n  const forminputs = document.createElement('form');\n\n  const nameField = document.createElement('input');\n  nameField.classList.add('input');\n  nameField.placeholder = 'Enter your Name *';\n  nameField.type = 'text';\n\n  const email = document.createElement('input');\n  email.classList.add('input');\n  email.placeholder = 'Enter your Email *';\n  email.type = 'email';\n\n  const textarea = document.createElement('textarea');\n  textarea.classList.add('input');\n  textarea.cols = '50';\n  textarea.rows = '10';\n\n  const btn = document.createElement('button');\n  btn.classList.add('input', 'button');\n  btn.innerHTML = 'Submit';\n\n  const inputsarr = [nameField, email, textarea, btn];\n  const inputslen = inputsarr.length;\n\n  for (let i = 0; i < inputslen; i += 1) {\n    forminputs.appendChild(inputsarr[i]);\n  }\n\n  form.appendChild(formh1);\n  form.appendChild(forminputs);\n\n  info.appendChild(detail);\n  info.appendChild(form);\n\n  const h = document.createElement('div');\n  h.classList.add('h');\n  h.appendChild(nav);\n  h.appendChild(mapouter);\n  h.appendChild(info);\n\n  document.body.appendChild(h);\n}\n\n//# sourceURL=webpack://webpackk/./src/js/contact.js?");
 
 /***/ })
 
@@ -159,18 +69,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 		};
 /******/ 	})();
 /******/ 	
-/******/ 	/* webpack/runtime/global */
-/******/ 	(() => {
-/******/ 		__webpack_require__.g = (function() {
-/******/ 			if (typeof globalThis === 'object') return globalThis;
-/******/ 			try {
-/******/ 				return this || new Function('return this')();
-/******/ 			} catch (e) {
-/******/ 				if (typeof window === 'object') return window;
-/******/ 			}
-/******/ 		})();
-/******/ 	})();
-/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -185,26 +83,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/publicPath */
-/******/ 	(() => {
-/******/ 		var scriptUrl;
-/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
-/******/ 		var document = __webpack_require__.g.document;
-/******/ 		if (!scriptUrl && document) {
-/******/ 			if (document.currentScript)
-/******/ 				scriptUrl = document.currentScript.src
-/******/ 			if (!scriptUrl) {
-/******/ 				var scripts = document.getElementsByTagName("script");
-/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
-/******/ 			}
-/******/ 		}
-/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
-/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
-/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
-/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
-/******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
 /************************************************************************/
