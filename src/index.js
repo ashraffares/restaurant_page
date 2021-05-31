@@ -1,3 +1,3 @@
-import menu from './js/menu';
+import contact from './js/contact';
 
-menu();
+contact();
