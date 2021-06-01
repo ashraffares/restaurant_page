@@ -1,3 +1,4 @@
+import nav from './nav';
 import ristretto from '../img/ristretto.jpg';
 import espresso from '../img/espresso.jpg';
 import espressoMacchiato from '../img/espresso_macchiato.jpg';
@@ -26,21 +27,6 @@ const div = document.createElement('div');
 div.classList.add('menu');
 
 export default function menumenu() {
-  const nav = document.createElement('nav');
-  nav.classList.add('nav');
-  const ul = document.createElement('ul');
-  ul.classList.add('ul');
-
-  const links = ['Home', 'Menu', 'Contact'];
-  for (let i = 0; i < 3; i += 1) {
-    const li = document.createElement('li');
-    li.innerHTML = links[i];
-    li.classList.add('li');
-    ul.appendChild(li);
-  }
-
-  nav.appendChild(ul);
-
   for (let i = 0; i < coffeelen; i += 1) {
     const card = document.createElement('div');
     card.classList.add('card');

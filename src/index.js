@@ -1,3 +1,3 @@
-import contact from './js/contact';
+import main from './js/home';
 
-contact();
+main();
