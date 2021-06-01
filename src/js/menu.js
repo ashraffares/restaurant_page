@@ -61,8 +61,8 @@ export default function menumenu() {
 
   const content = document.createElement('div');
   content.classList.add('content');
-  content.appendChild(nav);
   content.appendChild(div);
 
   document.body.appendChild(content);
+  nav();
 }
