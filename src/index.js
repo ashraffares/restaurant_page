@@ -16,10 +16,10 @@ function navbar() {
   ul.classList.add('ul');
 
   const links = ['Home', 'Menu', 'Contact'];
-  for (let i = 0; i < 3; i += 1) {
+  links.forEach((link) => {
     const btn = document.createElement('buttton');
-    btn.innerHTML = links[i];
-    btn.classList.add('li', links[i]);
+    btn.innerHTML = link;
+    btn.classList.add('li', link);
     btn.addEventListener('click', (e) => {
       if (e.target.classList[1] === 'Home') {
         free();
@@ -37,7 +37,7 @@ function navbar() {
     });
 
     ul.appendChild(btn);
-  }
+  });
   nav.appendChild(ul);
   document.body.getElementsByTagName('div')[0].prepend(nav);
 }

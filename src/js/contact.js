@@ -9,10 +9,6 @@ export default function contact() {
   iframe.classList.add('gmap_iframe');
   iframe.width = '100%';
   iframe.src = 'https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Tivoli%20Dome%20alexandria+(Testy%20cafe)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;&output=embed';
-  iframe.frameBorder = '0';
-  iframe.scrolling = 'no';
-  iframe.marginHeight = '0';
-  iframe.marginWidth = '0';
 
   const mapa = document.createElement('a');
   mapa.href = 'https://www.fridaynightfunkin.net/';
