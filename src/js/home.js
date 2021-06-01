@@ -1,4 +1,3 @@
-import nav from './nav';
 import '../css/style.css';
 
 export default function main() {
@@ -19,5 +18,4 @@ export default function main() {
   content.appendChild(div);
   content.classList.add('content');
   document.body.appendChild(content);
-  nav();
 }

@@ -1,5 +1,3 @@
-import nav from './nav';
-
 export default function contact() {
   const mapouter = document.createElement('div');
   mapouter.classList.add('mapouter');
@@ -98,5 +96,4 @@ export default function contact() {
   h.appendChild(info);
 
   document.body.appendChild(h);
-  nav();
 }

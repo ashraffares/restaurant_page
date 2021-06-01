@@ -1,4 +1,3 @@
-import nav from './nav';
 import ristretto from '../img/ristretto.jpg';
 import espresso from '../img/espresso.jpg';
 import espressoMacchiato from '../img/espresso_macchiato.jpg';
@@ -64,5 +63,4 @@ export default function menumenu() {
   content.appendChild(div);
 
   document.body.appendChild(content);
-  nav();
 }
