@@ -1,19 +1,4 @@
 export default function contact() {
-  const nav = document.createElement('nav');
-  nav.classList.add('nav');
-  const ul = document.createElement('ul');
-  ul.classList.add('ul');
-
-  const links = ['Home', 'Menu', 'Contact'];
-  for (let i = 0; i < 3; i += 1) {
-    const li = document.createElement('li');
-    li.innerHTML = links[i];
-    li.classList.add('li');
-    ul.appendChild(li);
-  }
-
-  nav.appendChild(ul);
-
   const mapouter = document.createElement('div');
   mapouter.classList.add('mapouter');
 
@@ -24,10 +9,6 @@ export default function contact() {
   iframe.classList.add('gmap_iframe');
   iframe.width = '100%';
   iframe.src = 'https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Tivoli%20Dome%20alexandria+(Testy%20cafe)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;&output=embed';
-  iframe.frameBorder = '0';
-  iframe.scrolling = 'no';
-  iframe.marginHeight = '0';
-  iframe.marginWidth = '0';
 
   const mapa = document.createElement('a');
   mapa.href = 'https://www.fridaynightfunkin.net/';
@@ -107,7 +88,6 @@ export default function contact() {
 
   const h = document.createElement('div');
   h.classList.add('h');
-  h.appendChild(nav);
   h.appendChild(mapouter);
   h.appendChild(info);
 
