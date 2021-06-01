@@ -14,11 +14,8 @@
 
 
 ## Live link
-```
-[Live Link](http://faresashraf.me/restaurant_page/).
 
-
-```
+[Clickme](http://faresashraf.me/restaurant_page/).
 
 ## Getting Started
 
