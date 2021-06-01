@@ -20,30 +20,28 @@ const coffee = [
   { name: 'Irish', price: '5', src: irish },
 ];
 
-const coffeelen = coffee.length;
-
-const div = document.createElement('div');
-div.classList.add('menu');
-
 export default function menumenu() {
-  for (let i = 0; i < coffeelen; i += 1) {
+  const div = document.createElement('div');
+  div.classList.add('menu');
+
+  coffee.forEach((val) => {
     const card = document.createElement('div');
     card.classList.add('card');
 
     const img = document.createElement('img');
     img.classList.add('img');
-    img.src = coffee[i].src;
+    img.src = val.src;
 
     const imgcontent = document.createElement('div');
     imgcontent.classList.add('imgcontent');
 
     const name = document.createElement('p');
     name.classList.add('name');
-    name.innerHTML = coffee[i].name;
+    name.innerHTML = val.name;
 
     const price = document.createElement('span');
     price.classList.add('price');
-    price.innerHTML = coffee[i].price;
+    price.innerHTML = val.price;
 
     const cur = document.createElement('span');
     cur.innerHTML = '.00 $';
@@ -56,7 +54,7 @@ export default function menumenu() {
     card.appendChild(imgcontent);
 
     div.appendChild(card);
-  }
+  });
 
   const content = document.createElement('div');
   content.classList.add('content');
